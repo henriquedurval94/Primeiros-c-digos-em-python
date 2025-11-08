@@ -1,0 +1,8 @@
+############### Projeto Duplo - Triplo - Raiz Quadrada ##################################
+
+numero = int(input('Digite um valor: '))
+duplo = numero ** 2
+triplo = numero ** 3
+raiz_quadrada = numero ** (1/2)
+
+print(f'O {numero}, o duplo {duplo}, o triplo {triplo}, o raiz quadranda é {raiz_quadrada}')
