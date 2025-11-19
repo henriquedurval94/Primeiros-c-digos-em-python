@@ -1,0 +1,13 @@
+############################## Programa manipulação de texto em Python ###################################################
+
+nome = str(input('Digite o seu Nome completo: ')).strip() ## STRIP - Remove os espaçps no início e no fim
+print(f'Nome em maiúsculas: {nome.upper()}') ## Comando UPPER() - Para deixar o texto com as Letras Maiúsculas
+print(f'Nome em minúsculos: {nome.lower()}') ## Comando LOWER() - Para deixar o texto com as Letras Minúsculas
+
+## Qunaridade de letras sem espaço
+letras_sem_espaços = len(nome.replace(' ', '')) ## Comando Len - Retorno númerico do caracteres de String ou sejá ele converte letras na quantidade de número.
+print(f'Quantidade de letras ao todo (sem considerar espaços): {letras_sem_espaços}')
+
+## Tamanho do primeiro nome
+primeiro_nome = nome.split()[0]
+print(f'Quantidade de letras do primeiro nome: {len(primeiro_nome)}')
