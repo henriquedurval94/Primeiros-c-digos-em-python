@@ -1,0 +1,20 @@
+############################### PROGRAMA DE ADIVINHAÇÃO #######################################################
+
+import random
+from time import sleep
+
+print('-=' * 30)
+
+n = int(input('Digite um numero inteiro: '))
+print('PROCESSANDO..........')
+sleep(3)
+
+computador = random.randint(0, 5)
+if n == computador:
+    print('Parabéns! Você GANHOU o número que pensei foi {}'.format(computador))
+else:
+    print('PERDEU! O número que eu pensei foi {}'.format(computador))
+
+print('-=' * 30)
+
+
