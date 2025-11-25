@@ -1,0 +1,13 @@
+################################## PROGRAMA SALÁRIO ############################################################
+
+salario = float(input('Digite o salário do funcionario: R$ '))
+print('=-=' * 35)
+if salario > 1250:
+    aumento = salario + (salario * 10 / 100)
+    print('O salário do funcionario é de R$ {:.2f}, é terá um reajuste de 10 %, e passará a receber R$ {:.2f}'.format(salario, aumento))
+else:
+    aumento = salario + (salario * 15 / 100)
+    print('O salário do funcionario é de R$ {:.2f}, e terá um rejuste de 15%, e passará a receber R$ {:.2f}'.format(salario, aumento))
+
+
+print('=-=' * 35)
