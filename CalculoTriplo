@@ -1,0 +1,6 @@
+print("="*15, "CALCULO TRIPULO" ,"="*15)
+n1 = input("Digite um número: ")
+triplo = int(n1) * 3
+
+print()
+print("O tripo de", n1,"é", triplo)
